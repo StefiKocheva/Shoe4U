@@ -22,6 +22,8 @@ namespace Shoe4U.Controllers
 
         public IActionResult Privacy()
         {
+            Console.WriteLine("Sharo is working here...");
+
             return View();
         }
 
